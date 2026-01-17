@@ -60,6 +60,7 @@ body {
   }
 
   > header {
+    grid-area: header;
     border-bottom: solid 1px var(--dark);
     > a {
       display: flex;
@@ -72,6 +73,10 @@ body {
   }
 
   main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
     > section {
       margin: 25px 0;
 
@@ -125,6 +130,7 @@ body {
   }
 
   > footer {
+    grid-area: footer;
     border-top: solid 1px var(--dark);
     padding-bottom: 10px;
     align-items: center;
