@@ -1,4 +1,14 @@
-@import "gruvbox.css";
+:root {
+  --bright: #ebdbb2;
+  --dark: #282828;
+  --dark-red: #cc241d;
+  --dark-green: #98971a;
+  --dark-yellow: #d79921;
+  --dark-blue: #2a5153;
+  --dark-purple: #b16286;
+  --dark-aqua: #689d6a;
+  --dark-gray: #514940;
+}
 
 @font-face {
   font-family: Inconsolata;
@@ -34,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    nav {
+    nav > ul {
       display: flex;
       align-items: center;
       margin: 0;
@@ -93,6 +103,11 @@ body {
           display: flex;
           flex-direction: column;
           margin-bottom: 20px;
+
+          * {
+            display: flex;
+            width: fit-content;
+          }
 
           a {
             margin: 0;
