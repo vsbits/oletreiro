@@ -1,12 +1,12 @@
 :root {
   --bright: #ebdbb2;
   --dark: #282828;
-  --dark-red: #cc241d;
-  --dark-green: #98971a;
-  --dark-yellow: #d79921;
+  --dark-red: #7a1713;
+  --dark-green: #6d6d12;
+  --dark-yellow: #9f741c;
   --dark-blue: #2a5153;
-  --dark-purple: #b16286;
-  --dark-aqua: #689d6a;
+  --dark-purple: #824963;
+  --dark-aqua: #456746;
   --dark-gray: #514940;
 }
 
@@ -58,6 +58,8 @@ body {
       li {
         + li {
           border-left: solid 1px var(--dark);
+          margin-left: 10px;
+          padding-left: 10px;
         }
         a {
           margin: 0;
